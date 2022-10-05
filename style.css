@@ -167,6 +167,21 @@ footer a{
     padding: 30px;
 }
 
+@media(max-width: 1210px){
+    .historia-articulo{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        
+    
+    }
+    .historia-foto{
+        width: 90%;
+        margin: 20px;
+    }
+}
+
+
 /* Seccion Galeria  */
 
 @media(max-width: 816px){
@@ -177,6 +192,9 @@ footer a{
 
     nav ul{
         flex-direction: column;
+    }
+    .articulo-galeria{
+        margin: 20px;
     }
 }
 
@@ -206,6 +224,8 @@ footer a{
 
 
 /* Seccion noticias  */
+
+
 
 .noticias_titulo{
     font-size: 40px;
@@ -240,7 +260,7 @@ footer a{
 }
 
 .seccion_noticia_imagen{
-    width: 500px;
+    width: 100%;
     height: 300px;
 }
 
@@ -248,6 +268,14 @@ footer a{
     text-align: justify;
     font-size: 18px;
     
+}
+
+@media(max-width: 884px){
+    .seccion_noticia_articulo{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 
@@ -285,5 +313,12 @@ footer a{
 
 .titulo_ubicacion{
     padding: 30px;
+}
+
+
+@media(max-width: 612px){
+    .mapa{
+        width: 70%;
+    }
 }
 
