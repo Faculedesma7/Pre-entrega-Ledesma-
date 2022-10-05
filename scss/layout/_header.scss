@@ -1,0 +1,53 @@
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: end;
+    padding: 10px;
+    
+}
+nav ul li{
+    margin: 20px;
+    font-size: 20px;
+
+    transition-property: all;
+    transition-duration: 1s;
+    
+}
+nav ul li :hover{
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 10px;
+    transition-property: all;
+    transition-duration: 1s;
+
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: black;
+}
+
+h1{
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    font-size: 40px;
+}
+
+.header{
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+    -webkit-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+    -moz-box-shadow: 1px 5px 5px 0px rgba(0,0,0,0.75);
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    height: 100%;
+    align-items: center;
+    border: solid black 1px;
+    
+
+}
