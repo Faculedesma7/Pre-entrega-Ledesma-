@@ -1,4 +1,6 @@
 
+
+
 nav ul{
     list-style: none;
     display: flex;
@@ -30,7 +32,7 @@ nav ul li a{
 }
 
 h1{
-    color: rgb(0, 0, 0);
+    color: black;
     padding: 10px;
     font-size: 40px;
 }
@@ -50,4 +52,11 @@ h1{
     border: solid black 1px;
     
 
+}
+
+@media(max-width: 816px){
+    .header{
+        flex-direction: column;
+    }
+    
 }

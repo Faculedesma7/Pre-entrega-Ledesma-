@@ -1,0 +1,20 @@
+{
+  "name": "pre-entrega-ledesma",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "run-sass": "sass --watch scss/main.scss css/style.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Faculedesma7/Pre-entrega-Ledesma-.git"
+  },
+  "author": "Facundo Ledesma",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Faculedesma7/Pre-entrega-Ledesma-/issues"
+  },
+  "homepage": "https://github.com/Faculedesma7/Pre-entrega-Ledesma-#readme"
+}
