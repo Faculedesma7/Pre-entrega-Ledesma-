@@ -1,0 +1,45 @@
+.historia-articulo{
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+    margin: 20px;
+    
+}
+
+.historia-foto{
+    width: 600px;
+    height: 400px;
+}
+
+.historia-texto{
+    font-size: 20px;
+    align-self: center;
+}
+
+.historia-titulo{
+    font-size: 40px;
+    text-align: center;
+    padding: 30px;
+}
+
+
+@media(max-width: 767px){
+    
+    .historia-articulo{
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .historia-texto{
+        font-size: 15px;
+        width: 80%;
+        align-self: flex-start;
+        
+    }
+    .historia-foto{
+        width: 80%;
+        
+    }
+    
+}

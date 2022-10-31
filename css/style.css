@@ -96,63 +96,49 @@ h1 {
     flex-direction: column;
   }
 }
-/* Seccion index historia resumen */
-@media (max-width: 1030px) {
-  .articulo-historia-resumen {
-    flex-direction: column;
-    align-items: center;
-  }
-}
-.seccion-historia-resumen {
-  margin: 12px;
-}
-
-.historia-resumen-titulo {
-  text-align: center;
-  padding: 30px;
-  font-size: 40px;
+.btn {
+  margin: 20px;
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  width: 90%;
+  top: 0%;
+  margin: 50px;
+  color: black;
 }
 
-.articulo-historia-resumen {
+.carousel {
   display: flex;
+  margin-left: 50px;
+  width: 90%;
+  height: 300px;
 }
 
-.historia-resumen-foto {
-  width: 700px;
-  height: 400px;
+.contact {
+  display: block;
 }
 
-.historia-resumen-texto {
-  align-self: center;
-  font-size: 20px;
-  padding: 20px;
+.formulario {
+  display: flex;
+  justify-content: center;
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: solid 1px black;
+  width: 100%;
 }
 
-/* Seccion historia */
-.historia-articulo {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr 1fr;
+.formulario__titulo {
+  text-align: center;
+  font-size: 3rem;
   margin: 20px;
 }
 
-.historia-foto {
-  width: 600px;
-  height: 400px;
+.lista_formulario li {
+  list-style: none;
+  padding: 50px;
 }
 
-.historia-texto {
-  font-size: 20px;
-  align-self: center;
-}
-
-.historia-titulo {
-  font-size: 40px;
-  text-align: center;
-  padding: 30px;
-}
-
-/* Seccion Galeria  */
 @media (max-width: 816px) {
   .seccion-galeria {
     flex-direction: column;
@@ -184,7 +170,84 @@ h1 {
   padding: 30px;
 }
 
-/* Seccion noticias  */
+.historia-articulo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+  margin: 20px;
+}
+
+.historia-foto {
+  width: 600px;
+  height: 400px;
+}
+
+.historia-texto {
+  font-size: 20px;
+  align-self: center;
+}
+
+.historia-titulo {
+  font-size: 40px;
+  text-align: center;
+  padding: 30px;
+}
+
+@media (max-width: 767px) {
+  .historia-articulo {
+    display: flex;
+    flex-direction: column;
+  }
+  .historia-texto {
+    font-size: 15px;
+    width: 80%;
+    align-self: flex-start;
+  }
+  .historia-foto {
+    width: 80%;
+  }
+}
+@media (max-width: 1030px) {
+  .articulo-historia-resumen {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+.seccion-historia-resumen {
+  margin: 50px;
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  border: 1px solid rgb(202, 202, 202);
+  border-radius: 20px;
+}
+
+.historia-resumen-titulo {
+  text-align: center;
+  padding: 30px;
+  font-size: 40px;
+}
+
+.articulo-historia-resumen {
+  display: flex;
+}
+
+.historia-resumen-foto {
+  width: 80%;
+  height: 400px;
+}
+
+.historia-resumen-texto {
+  align-self: center;
+  font-size: 20px;
+  padding: 20px;
+}
+
+.tituloh3 {
+  font-size: 3rem;
+  text-align: center;
+}
+
 .noticias_titulo {
   font-size: 40px;
   text-align: center;
@@ -200,6 +263,10 @@ h1 {
   display: flex;
   flex-direction: row;
   margin: 50px;
+  padding: 30px;
+  background: #E0EAFC; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
 .noticias_info {
@@ -231,17 +298,6 @@ h1 {
     justify-content: center;
     align-items: center;
   }
-}
-/* Seccion contacto  */
-.formulario {
-  display: flex;
-  justify-content: center;
-  margin: 100px;
-}
-
-.lista_formulario li {
-  margin: 20px;
-  list-style: none;
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -1,0 +1,35 @@
+@media(max-width: 816px){
+    
+    .seccion-galeria{
+        flex-direction: column;
+    }
+
+    nav ul{
+        flex-direction: column;
+    }
+}
+
+.seccion-galeria{
+    /* display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr; */
+    gap: 40px;
+    padding: 40px;
+}
+
+.galeria-foto{
+    height: 100%;
+    width: 100%;
+}
+
+.galeria-titulo-foto{
+    text-align: center;
+    
+    
+}
+
+.seccion-galeria-titulo{
+    text-align: center;
+    font-size: 40px;
+    padding: 30px;
+}

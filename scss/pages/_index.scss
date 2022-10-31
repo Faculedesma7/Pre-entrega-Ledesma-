@@ -1,0 +1,45 @@
+@media(max-width: 1030px){
+    
+    .articulo-historia-resumen{
+        flex-direction: column;
+        align-items: center;
+    }
+}
+.seccion-historia-resumen{
+    margin: 50px;
+    background: #E0EAFC;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to bottom, #CFDEF3, #E0EAFC);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to bottom, #CFDEF3, #E0EAFC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    border: 1px solid rgb(202, 202, 202);
+    border-radius: 20px;
+}
+
+.historia-resumen-titulo{
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+.articulo-historia-resumen{
+    display: flex;
+    
+    
+}
+
+.historia-resumen-foto{
+    width: 80%;
+    height: 400px;
+    
+
+}
+
+.historia-resumen-texto{
+    align-self: center;
+    font-size: 20px;
+    padding: 20px;
+}
+
+.tituloh3{
+    font-size: 3rem;
+    text-align: center;
+}
